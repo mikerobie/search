@@ -1,0 +1,36 @@
+.googletitle
+{
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.header
+{
+    font-size: 13px;
+    text-align: right;
+    padding-top: 22px;
+    padding-right: 10px;
+}
+
+.menuItems
+{
+    font-size: 13px;
+    padding-right: 10px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.search
+{
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 14px;
+    width: 600px;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+}
