@@ -23,8 +23,8 @@
 
 .search
 {
-    font-size: 13px;
-    text-align: center;
+    font-size: 1px;
+    text-align: left;
     margin: auto;
     margin-top: 50px;
     padding: 14px;
@@ -33,4 +33,15 @@
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     outline: none;
+}
+
+.form1 {
+    border: none;
+    outline: none;
+    caret-color: black; 
+    animation: blink-caret 1s step-end infinite;
+    @keyframes blink-caret {
+        from, to { border-color: transparent; }
+        50% { border-color: black; }
+      } 
 }
