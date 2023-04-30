@@ -1,3 +1,15 @@
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    #main-content {
+      width: 100%;
+    }
+    .sidebar {
+      display: none;
+    }
+  }
+  
 .googletitle
 {
   text-align: center;
