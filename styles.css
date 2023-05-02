@@ -47,6 +47,14 @@
     outline: none;
 }
 
+#input1 {
+    text-align: left;
+    width: 600px;
+    color: blue;
+    border: none;
+    outline: none;
+}
+
 .form1 {
     border: none;
     outline: none;
