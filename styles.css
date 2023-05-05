@@ -8,6 +8,15 @@
     .sidebar {
       display: none;
     }
+
+    .search {
+        width: 100%;
+    }
+  }
+
+  .flex-container {
+    display: flex;
+
   }
   
 .googletitle
