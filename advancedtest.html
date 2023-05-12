@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body {
+             font-family: Arial, sans-serif;
+             background-color: #f2f2f2;
+           }    
+
+           .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+
+        .form-group {
+        background-color: #ccc;
+        align-self: flex-start;
+    }
+
+         .secondbox {
+        background-color: #ccc;
+        align-self: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+           
+       </style>
+       
+       <h1>Advanced search</h1>
+       
+       <p>Find pages with...</p>
+
+       <div class ="container">
+       
+       <form action="/action_page.php">
+        <div class ="form-group">
+        <label for="html">All these words</label>
+         <input type="text" id="html" name="fav_language" value="HTML"><br>
+        <label for="html">This exact word or phrase</label>
+         <input type="text" id="html" name="fav_language" value="HTML"><br>
+        <label for="html">any of these words</label>
+         <input type="text" id="html" name="fav_language" value="HTML"><br>
+         <label for="html">none of these words</label>
+         <input type="text" id="html" name="fav_language" value="HTML"><br>
+         <label for="html">numbers ranging from</label>
+         <input type="text" id="html" name="fav_language" value="HTML"><br>
+         <input type="submit" value="Submit">
+       
+        </form>
+        </div>
+
+        <div class ="secondbox"><p>to do this in a search box</p></div>
+
+    </div>
+       
+       </body>
+       </html>
+</body>
+</html>

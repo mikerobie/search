@@ -18,9 +18,11 @@
     }
   }
 
-  .flex-container {
+   .containermain {
     display: flex;
-
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
   
 .googletitle
@@ -50,6 +52,7 @@
 
 .search
 {
+    background: none;
     font-size: 1px;
     text-align: left;
     margin: auto;
@@ -57,14 +60,28 @@
     padding: 14px;
     width: 600px;
     color: none;
-    border: 1px solid #dfe1e5;
+    border: 10px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+}
+
+.testlabel1 {
+    background: none;
+    font-size: 1px;
+    text-align: left;
+    margin: auto;
+    margin-top: 50px;
+    padding: 14px;
+    width: 900px;
+    color: none;
+    border: 10px solid #dfe1e5;
     border-radius: 24px;
     outline: none;
 }
 
 #input1 {
     text-align: left;
-    width: 600px;
+    width: 550px;
     color: blue;
     border: none;
     outline: none;
@@ -84,7 +101,7 @@
 #button1, #button2, #button3, #button4 {
     font-size: 14px;
     font-family: Roboto,arial,sans-serif;
-    font color: #202124;
+    font color: #202124;;
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -108,4 +125,8 @@
 #button2:hover {
     border: 2px solid grey;
   }
+
+  .containeras1, .containeras2, .containeras3, .containeras4 {
+    background: grey;
+    }
   
